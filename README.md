@@ -3,6 +3,12 @@ wplocaldb
 
 A simple shell script to search and replace domains in a Wordpress database
 
+## reason for making this
+* faster than search and replace in a text editor
+* saves a new file so your old dump remains the same
+* directly from the command line is awesome, for obvious reasons
+
+
 ## usage
 
 	sh ./wplocaldb.sh yourdumpfile.sql livedomain.nl domain.local
